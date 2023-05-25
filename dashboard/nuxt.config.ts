@@ -59,10 +59,10 @@ const NuxtAppConfig: NuxtConfig = {
     host: '0.0.0.0',
   },
 
-  // generate: {
-  //   dir: './dist/dashboard',
-  //   fallback: true,
-  // },
+   generate: {
+     dir: './dist/dashboard',
+     fallback: true,
+   },
 
   build: { transpile: ['@geist-ui/vue'] },
 }
