@@ -97,7 +97,7 @@
   </div>
 </template>
 
-<script lang="ts">
+<script setup lang="ts">
 import Vue from 'vue'
 import plusCircle from '@geist-ui/vue-icons/packages/plus-circle'
 
